@@ -1,3 +1,8 @@
+Посмотреть можно : https://codesandbox.io/s/weathered-pine-psgjc
+
+
+
+
 Onpoint тестовое задание
 
 Тестовое задание для кандидата на должность Front-end разработчик
