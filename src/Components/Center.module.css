@@ -1,0 +1,36 @@
+.center {
+    height: 768px;
+    background: url(../Assets/img/Center.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.center__header{
+    width: 480px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 150px;
+    color: white;
+    font-family: 'GothamPro', sans-serif;
+    font-size: 50px;
+}
+.ice{
+    position: absolute;
+}
+.center__first_littleIce{
+    left: 80px;
+    top: 160px;
+}
+.center__second_littleIce{
+    left: 715px;
+    top: 590px;
+}
+.center__middleIce{
+    left: 233px;
+    top: 443px;
+}
+.center__bigIce{
+    left: 880px;
+    top: 40px;
+}

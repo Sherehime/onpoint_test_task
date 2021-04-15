@@ -1,0 +1,836 @@
+.bottom {
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    background: url(../Assets/img/Bottom.png);
+  }
+  .bottom__container{
+    display: flex;
+    height: 100vh;
+    width: 300vw;
+    transition: 0.6s cubic-bezier(0.5, 0, 0.5, 1);
+  }
+  .bottom__first {
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+  }
+  .bottom__2 {
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+  }
+  .bottom__3 {
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+  }
+  .bottom__line{
+      position: absolute;
+      bottom: 75px;
+      left: 193px;
+      width: 638px;
+      height: 13px;
+  }
+  .bottom__slider{
+    -webkit-appearance: none;
+    width: 600px;
+    height: 15px;
+  }
+  .bottom__slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 45px;
+    height: 57px;
+    background: url(../Assets/img/polygon.svg) no-repeat;
+    background-size: contain;
+  }
+  .page__1988year, .page__2009year, .page2016{
+    position: relative;
+  }
+  .page__1988year__header, .page__2009year__header, .page2016__header{
+    display: block;
+    font-family: 'GothamPro', sans-serif;
+    margin-left: 115px;
+    margin-top: 80px;
+    font-size: 30px;
+    color: white;
+  }
+  .page__1988year__content{
+    width: 595px;
+    height: 355px;
+    margin: 0 auto;
+    margin-top: 65px;
+    position: relative;
+  }
+  .arrow{
+    position: absolute;
+    color: white;
+  }
+  .page__1988year__lba{
+    top: 135px;
+    left: 95px;
+  }
+  .page__1988year__rba{
+    top: 135px;
+    right: 95px;
+  }
+  .page__1988year__ba{
+    top: 170px;
+    left: 295px;
+  }
+  .page__1988year__ra{
+    width: 50px;
+    top: 295px;
+    left: 95px;
+  }
+  .page__1988year__la{
+    width: 50px;
+    top: 295px;
+    right: 95px;
+  }
+  .page__1988year__container{
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .page__1988year__hyperglycemia{
+    width: 298px;
+    height: 90px;
+    align-self: flex-end;
+    border: 1px white solid;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 85px;
+  }
+  .page__1988year__1{
+    margin: 0 auto;
+  }
+  .page__1988year__2{
+    margin-top: 18px;
+  }
+  .page__1988year__3{
+    margin-top: 18px;
+  }
+
+  .field{
+    width: 100px;
+  }
+  .field__number{
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .field__text{
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+  }
+  .field__point{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 66px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+  }
+  .field__img{
+    padding-top: 15px;
+  }
+  .little{
+    position: absolute;
+    width: 45px;
+    opacity: 0.4;
+  }
+  .middle{
+    position: absolute;
+    width: 115px;
+    opacity: 0.4;
+  }
+  .big{
+    position: absolute;
+    width: 210px;
+    opacity: 0.3;
+  }
+  .page__1988year__first_ice{
+    top: 110px;
+    left: 915px;
+  }
+  .page__1988year__second_ice{
+    top: 225px;
+    left: 660px;
+  }
+  .page__1988year__third_ice{
+    top: 550px;
+    left: 25px;
+  }
+  .page__2009year__ice1{
+    top: 90px;
+    left: 475px;
+  }
+  .page__2009year__ice2{
+    top: 235px;
+    left: 45px;
+  }
+  .page__2009year__ice3{
+    top: 570px;
+    left: 895px;
+  }
+  .page2016__ice1{
+    top: 105px;
+    left: -10px;
+  }
+  .page2016__ice2{
+    top: 210px;
+    left: 935px;
+  }
+  .page2016__ice3{
+    top: 585px;
+    left: 160px;
+  }
+  .page__2009year__content{
+    position: relative;
+    height: 475px;
+    width: 770px;
+    margin: 0 auto;
+  }
+  .page__2009year__container1{
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .page__2009year__23{
+    min-width: 165px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+  }
+  .page__2009year__23_right{
+    margin-left: 10px;
+    min-width: 165px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+  }
+  .page__2009year__number{
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .page__2009year__number_right{
+    display: block;
+    margin: 0;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .page__2009year__number_left{
+    display: block;
+    margin: 0;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .page__2009year__text{
+    display: block;
+    max-width: 160px;
+    word-wrap: break-word;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .page__2009year__defect{
+    align-self: center;
+  }
+  .page__2009year__text_right{
+    display: block;
+    max-width: 160px;
+    word-wrap: break-word;
+    margin: 0;
+    align-self: center;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .page__2009year__text_thin{
+    display: block;
+    max-width: 90px;
+    word-wrap: break-word;
+    margin: 0;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .page__2009year__text_thin_center{
+    display: block;
+    max-width: 90px;
+    word-wrap: break-word;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .page__2009year__kidneys{
+    margin-top: 15px;
+    margin-right: -39px;
+    text-align: right;
+  }
+  .page__2009year__fat_cells{
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .page__2009year__point{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 9px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+  }
+  .page__2009year__point_muscle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: center;
+    line-height: 53px;
+    color: white;
+  }
+  .page__2009year__top__top__second_point3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+  }
+  .page__2009year__container2{
+    margin-top: 32px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .page__2009year__hyperglycemia{
+    width: 390px;
+    height: 142px;
+    margin-left: -38px;
+    align-self: flex-end;
+    border: 1px white solid;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 130px;
+  }
+  .page__2009year__container3{
+    width: 430px;
+    margin-left: 160px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .page__2009year__img_liver{
+    width: 45px;
+  }
+  .page__2009year__img_muscle{
+    width: 53px;
+  }
+  .page__2009year__ba1{
+    top: 135px;
+    left: 235px;
+  }
+  .page__2009year__ba2{
+    top: 135px;
+    left: 376px;
+  }
+  .page__2009year__ba3{
+    top: 135px;
+    left: 535px;
+  }
+  .page__2009year__ua1{
+    top: 315px;
+    left: 237px;
+  }
+  .page__2009year__ua2{
+    top: 315px;
+    left: 382px;
+  }
+  .page__2009year__ua3{
+    top: 315px;
+    left: 518px;
+  }
+  .page__2009year__ra2{
+    top: 235px;
+    left: 138px;
+  }
+  .page__2009year__la2{
+    top: 228px;
+    left: 565px;
+  }
+
+  .page2016__content{
+    width: 915px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .page2016__left_side{
+    margin-top: 80px;
+  }
+  .point_filed{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .point_filed__number{
+    display: block;
+    margin: 0;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .point_filed__text{
+    display: block;
+    max-width: 200px;
+    word-wrap: break-word;
+    margin: 0;
+    align-self: center;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .point_field__point{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+  }
+  .page2016__9 img{
+    margin-top: 7px;
+  }
+  .page2016__10 img{
+    margin-top: 5px;
+  }
+  .page2016__amylin{
+    display: block;
+    align-self: right;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+  }
+  .page2016__1{
+    display: block;
+  }
+  .page2016__1 .point_filed__text{
+    font-size: 25px;
+  }
+  .point_filed__flex_container{
+    display: flex;
+  }
+  .page2016__1 .point_field__point{
+    margin-left: 22px;
+    width: 85px;
+    height: 85px;
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 75px;
+  }
+  .page2016__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+  }
+  .page2016__23{
+    margin: 0;
+    margin-top: 80px;
+    width: 345px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .page2016__number{
+    display: block;
+    margin: 0;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .page2016__text{
+    display: block;
+    max-width: 200px;
+    word-wrap: break-word;
+    margin: 0;
+    align-self: center;
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .page2016__2{
+    width: 150px;
+  }
+  .page2016__2 .page2016__number{
+    text-align: end;
+  }
+  .page2016__3 .page2016__number{
+    text-align: start;
+  }
+  .page2016__hyperglycemia{
+    display: block;
+    margin-top: 50px;
+    width: 175px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .page2016__glucogan{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 300px;
+    left: 478px;
+  }
+  .page2016__11{
+    margin: 0;
+    margin-right: 70px;
+  }
+  .page2016__11 .point_field__point{
+    line-height: 70px;
+  }
+  .page2016__right_side{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .page2016__7 .point_field__point{
+    margin-right: 15px;
+  }
+  .page2016__7 .point_filed__number{
+    text-align: start;
+  }
+  .page2016__7 .point_field__point{
+    line-height: 75px;
+  }
+  .page2016__654{
+    margin-top: 45px;
+  }
+  .container654{
+    width: 260px;
+    background-color: rgba(240, 248, 255, 0.151);
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.096), rgba(255, 255, 255, 0.014), rgba(255, 255, 255, 0));
+  }
+  .container654__header{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 38px;
+    color: white;
+    font-size: 15px;
+  }
+  .container654 .point_filed{
+    margin-left: 20px;
+    max-width: 170px;
+    justify-content: space-around;
+  }
+  .container654__4.point_filed{
+    max-width: 250px;
+    justify-content: space-around;
+  }
+  .container654__4 .point_field__point{
+    line-height: 79px;
+  }
+  .container654 .point_filed__number{
+    text-align: left;
+  }
+  .container654__6 img{
+    width: 45px;
+    margin-top: 10px;
+  }
+  .container654__5 img{
+    width: 55px;
+    margin-top: 10px;
+  }
+  .arrow_c{
+    position: absolute;
+  }
+  .arrow_c::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 3.5px solid transparent;
+    border-bottom: 8px solid #fff;
+  }
+  .arrow_c::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    display: block;
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+  }
+  .page2016__arrow1{
+    top: 123px;
+    left: 285px;
+    transform: rotate(261deg);
+  }
+  .page2016__arrow1::before{
+    height: 100px;
+  }
+  .page2016__arrow2{
+    top: 108px;
+    left: 400px;
+    transform: rotate(81deg);
+  }
+  .page2016__arrow2::before{
+    height: 100px;
+  }
+  .page2016__arrow3{
+    top: 115px;
+    left: 635px;
+    transform: rotate(99deg);
+  }
+  .page2016__arrow3::before{
+    height: 100px;
+  }
+  .page2016__arrow4{
+    top: 115px;
+    left: 520px;
+    transform: rotate(279deg);
+  }
+  .page2016__arrow4::before{
+    height: 100px;
+  }
+  .page2016__arrow5{
+    top: 207px;
+    left: 275px;
+    transform: rotate(240deg);
+  }
+  .page2016__arrow5::before{
+    height: 135px;
+  }
+  .page2016__arrow6{
+    top: 135px;
+    left: 405px;
+    transform: rotate(60deg);
+  }
+  .page2016__arrow6::before{
+    height: 135px;
+  }
+  .page2016__arrow7{
+    top: 305px;
+    left: 245px;
+    transform: rotate(229deg);
+  }
+  .page2016__arrow7::before{
+    height: 212px;
+  }
+  .page2016__arrow8{
+    top: 230px;
+    left: 437px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow8::before{
+    height: 67px;
+  }
+  .page2016__arrow9{
+    top: 230px;
+    left: 487px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow9::before{
+    height: 67px;
+  }
+  .page2016__arrow10{
+    top: 365px;
+    left: 463px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow10::before{
+    height: 200px;
+  }
+  .page2016__arrow11{
+    top: 350px;
+    left: 242px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow11::before{
+    height: 12px;
+  }
+  .page2016__arrow12{
+    top: 378px;
+    left: 362px;
+    transform: rotate(90deg);
+  }
+  .page2016__arrow12::before{
+    height: 60px;
+  }
+  .page2016__arrow13{
+    top: 364px;
+    left: 364px;
+    transform: rotate(111deg);
+  }
+  .page2016__arrow13::before{
+    height: 90px;
+  }
+  .page2016__arrow14{
+    top: 202px;
+    left: 645px;
+    transform: rotate(117deg);
+  }
+  .page2016__arrow14::before{
+    height: 138px;
+  }
+  .page2016__arrow15{
+    top: 148px;
+    left: 500px;
+    transform: rotate(297deg);
+  }
+  .page2016__arrow15::before{
+    height: 138px;
+  }
+  .page2016__arrow16{
+    top: 365px;
+    left: 437px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow16::before{
+    height: 37px;
+  }
+  .page2016__arrow17{
+    top: 316px;
+    left: 486px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow17::before{
+    height: 10px;
+  }
+  .page2016__arrow18{
+    top: 365px;
+    left: 486px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow18::before{
+    height: 17px;
+  }
+  .page2016__arrow19{
+    top: 430px;
+    left: 470px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow19::before{
+    height: 17px;
+  }
+  .page2016__arrow20{
+    top: 400px;
+    left: 445px;
+    transform: rotate(0deg);
+  }
+  .page2016__arrow20::before{
+    height: 17px;
+  }
+  .page2016__arrow21{
+    top: 162px;
+    left: 730px;
+    transform: rotate(0deg);
+  }
+  .page2016__arrow21::before{
+    height: 18px;
+  }
+  .page2016__arrow22{
+    top: 195px;
+    left: 750px;
+    transform: rotate(180deg);
+  }
+  .page2016__arrow22::before{
+    height: 18px;
+  }
